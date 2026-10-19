@@ -6,7 +6,7 @@ Projeto criado como estudo prático de **manipulação do DOM**, **validação c
 
 ## 🚀 Demonstração
 
-> Adicione aqui o link do GitHub Pages (ou outro serviço de hospedagem), depois de publicar o projeto.
+>  https://rapositokkj.github.io/Consulta-CEP/
 
 ## 🛠️ Funcionalidades
 
