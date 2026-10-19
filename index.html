@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>CONSULTA CEP</h1>
+        <h3>Site criado com o intuito de aprendizagem e para consulta de CEP</h3>
+    </header>
+
+    <section>
+        <div>
+            <h3>Digite o CEP para consulta-lo</h3>
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" placeholder="00000-000">
+            <button id="botao">Consultar</button>
+        </div>
+        <div id="resultado">
+            <h3>Resultado da consulta</h3>
+            <p id="regiao-postal"><strong>Região Postal:</strong> <span id="valor-regiao-postal"></span></p>
+            <p id="uf"><strong>Estado:</strong> <span id="valor-uf"></span></p>
+            <p id="cidade"><strong>Cidade:</strong> <span id="valor-cidade"></span></p>
+            <p id="bairro"><strong>Bairro:</strong> <span id="valor-bairro"></span></p>
+            <p id="logradouro"><strong>Logradouro:</strong> <span id="valor-logradouro"></span></p>
+        </div>
+    </section>
+</body>
+</html>
